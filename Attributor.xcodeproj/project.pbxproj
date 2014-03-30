@@ -112,8 +112,6 @@
 		C1F12D8818E64AA700E63B83 /* Attributor */ = {
 			isa = PBXGroup;
 			children = (
-				C1F12D9118E64AA700E63B83 /* AttributorAppDelegate.h */,
-				C1F12D9218E64AA700E63B83 /* AttributorAppDelegate.m */,
 				C1F12D9418E64AA700E63B83 /* Main.storyboard */,
 				C1F12D9718E64AA700E63B83 /* AttributorViewController.h */,
 				C1F12D9818E64AA700E63B83 /* AttributorViewController.m */,
@@ -126,6 +124,8 @@
 		C1F12D8918E64AA700E63B83 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C1F12D9118E64AA700E63B83 /* AttributorAppDelegate.h */,
+				C1F12D9218E64AA700E63B83 /* AttributorAppDelegate.m */,
 				C1F12D8A18E64AA700E63B83 /* Attributor-Info.plist */,
 				C1F12D8B18E64AA700E63B83 /* InfoPlist.strings */,
 				C1F12D8E18E64AA700E63B83 /* main.m */,
@@ -377,6 +377,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Attributor/Attributor-Prefix.pch";
 				INFOPLIST_FILE = "Attributor/Attributor-Info.plist";
@@ -390,6 +391,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Attributor/Attributor-Prefix.pch";
 				INFOPLIST_FILE = "Attributor/Attributor-Info.plist";
